@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Pengaturan</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>⚙️ Pengaturan</h1>
+
+</header>
+
+<div class="settings-container">
+
+<div class="setting-card">
+
+<h2>🎨 Tema</h2>
+
+<p>Pilih tampilan aplikasi.</p>
+
+<div class="theme-buttons">
+
+<button id="darkTheme" class="theme-btn active">
+🌙 Gelap
+</button>
+
+<button id="lightTheme" class="theme-btn">
+☀️ Terang
+</button>
+
+</div>
+
+</div>
+
+<div class="setting-card">
+
+<h2>⭐ Favorit</h2>
+
+<p>Kelola daftar pemain favorit.</p>
+
+<button id="clearFavorites" class="danger-btn">
+
+Hapus Semua Favorit
+
+</button>
+
+</div>
+
+<div class="setting-card about-card">
+
+<div class="app-logo">
+
+⚽
+
+</div>
+
+<h2>FM26 Wonderkids</h2>
+
+<p class="version">
+
+Version 1.0.0
+
+</p>
+
+<div class="about-info">
+
+<div class="about-row">
+
+<span>📊 Database</span>
+
+<span>785 Players</span>
+
+</div>
+
+<div class="about-row">
+
+<span>🌍 Countries</span>
+
+<span>69</span>
+
+</div>
+
+<div class="about-row">
+
+<span>🏟 Clubs</span>
+
+<span>267</span>
+
+</div>
+
+<div class="about-row">
+
+<span>👨‍💻 Developer</span>
+
+<span>Ridzx</span>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+❤️ Thank you for using<br>
+FM26 Wonderkids Database
+
+</p>
+
+</div>
+
+</div>
+
+  <!-- Modal Hapus Favorit -->
+
+<div id="confirmModal" class="modal">
+
+<div class="modal-box">
+
+<h2>🗑 Hapus Favorit</h2>
+
+<p>
+Semua pemain favorit akan dihapus.
+Tindakan ini tidak dapat dibatalkan.
+</p>
+
+<div class="modal-buttons">
+
+<button id="cancelDelete" class="btn-secondary">
+Batal
+</button>
+
+<button id="confirmDelete" class="btn-danger">
+Hapus
+</button>
+
+</div>
+
+</div>
+
+</div>
+  
+<nav class="bottom-nav">
+
+<a href="index.html" class="nav-item">
+
+🏠
+
+<span>Home</span>
+
+</a>
+
+<a href="favorites.html" class="nav-item">
+
+⭐
+
+<span>Favorit</span>
+
+</a>
+
+<a href="settings.html" class="nav-item active">
+
+⚙️
+
+<span>Pengaturan</span>
+
+</a>
+
+</nav>
+
+<script src="js/theme.js"></script>
+<script src="js/settings.js"></script>
+
+</body>
+
+</html>

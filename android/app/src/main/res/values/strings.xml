@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FM26 Wonder Scout</string>
+    <string name="title_activity_main">FM26 Wonder Scout</string>
+    <string name="package_name">com.ridzx.fm26wonderscout</string>
+    <string name="custom_url_scheme">com.ridzx.fm26wonderscout</string>
+</resources>
